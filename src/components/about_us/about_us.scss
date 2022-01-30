@@ -1,0 +1,81 @@
+.about_us {
+  padding-top: 50px;
+  .about_us_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h4 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 24px;
+      margin-top: -22px;
+      width: 35%;
+      text-align: center;
+    }
+  }
+
+  .about_us_content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 220px;
+    position: relative;
+
+    .about_us_left_content {
+      margin-right: 85px;
+
+      //   img {
+      //     border-radius: 50%;
+      //   }
+    }
+
+    .about_us_right_content {
+      p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 30px;
+      }
+    }
+
+    .about_us_left_svg {
+      position: absolute;
+      top: 100px;
+      left: 0px;
+      z-index: -1;
+    }
+
+    .about_us_right_svg {
+      position: absolute;
+      top: -30px;
+      right: 0px;
+      z-index: -1;
+    }
+
+    .about_us_circle_big {
+      height: 398px;
+      width: 398px;
+      background-color: transparent;
+      border: 1px solid var(--main-color);
+      border-radius: 50%;
+      position: absolute;
+      top: 20px;
+      left: 174px;
+      z-index: -1;
+    }
+
+    .about_us_circle_small {
+      height: 122px;
+      width: 122px;
+      background-color: transparent;
+      border: 1px solid var(--main-color);
+      border-radius: 50%;
+      position: absolute;
+      top: 355px;
+      left: 140px;
+      z-index: -1;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.easy_steps {
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+
+  .easy_steps_content {
+    width: 47%;
+    .easy_steps_content1 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin-bottom: 30px;
+
+      .easy_steps_count {
+        background-color: var(--main-color);
+        height: 8px;
+        width: 8px;
+        font-size: 24px;
+        border-radius: 50%;
+        color: white;
+        padding: 11px;
+        line-height: 10px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .easy_steps_inner_content {
+        margin-top: -24px;
+        margin-left: 15px;
+
+        h4 {
+          font-size: 20px;
+        }
+        p {
+          font-size: 14px;
+          margin-top: -12px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+
+  .easy_steps_svg {
+    position: absolute;
+    z-index: -1;
+    top: 80px;
+    left: 0px;
+  }
+}

@@ -1,0 +1,40 @@
+.order_medicine {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 100px;
+  gap: 50px;
+
+  .order_medicine_card {
+    border: 1px solid #d7d7d7;
+    border-radius: 10px;
+    padding: 5px 20px;
+    cursor: pointer;
+
+    h4 {
+      color: var(--main-color);
+      font-size: 18px;
+    }
+
+    .order_medicine_location {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -15px;
+
+      p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-left: 12px;
+      }
+    }
+  }
+}
+
+.order_medicine_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 35px;
+}
