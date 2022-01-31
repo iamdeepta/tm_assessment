@@ -1,6 +1,7 @@
 import React from "react";
 import AboutUsHeader from "../about_us/AboutUsHeader";
 import Button from "../button/Button";
+import OrderMedicineCard from "./OrderMedicineCard";
 import "./order_medicine.scss";
 
 const OrderMedicine = () => {
@@ -14,38 +15,21 @@ const OrderMedicine = () => {
           }
         />
         <div className="order_medicine">
-          <div className="order_medicine_card">
-            <h4>Shahbag Medicine Corner</h4>
-            <div className="order_medicine_location">
-              <img src="images/order_medicine_location.svg" alt="location" />
-              <p>
-                Bangabandhu Sheikh Mojib Medical University Gate No-03, Shahbag,
-                Dhaka- 1000, Bangladesh
-              </p>
-            </div>
-          </div>
-
-          <div className="order_medicine_card">
-            <h4>Shahbag Medicine Corner</h4>
-            <div className="order_medicine_location">
-              <img src="images/order_medicine_location.svg" alt="location" />
-              <p>
-                Bangabandhu Sheikh Mojib Medical University Gate No-03, Shahbag,
-                Dhaka- 1000, Bangladesh
-              </p>
-            </div>
-          </div>
-
-          <div className="order_medicine_card">
-            <h4>Shahbag Medicine Corner</h4>
-            <div className="order_medicine_location">
-              <img src="images/order_medicine_location.svg" alt="location" />
-              <p>
-                Bangabandhu Sheikh Mojib Medical University Gate No-03, Shahbag,
-                Dhaka- 1000, Bangladesh
-              </p>
-            </div>
-          </div>
+          <OrderMedicineCard
+            header={"Shahbag Medicine Corner"}
+            location={`Bangabandhu Sheikh Mojib Medical University Gate No-03, Shahbag,
+                Dhaka- 1000, Bangladesh`}
+          />
+          <OrderMedicineCard
+            header={"Shahbag Medicine Corner"}
+            location={`Bangabandhu Sheikh Mojib Medical University Gate No-03, Shahbag,
+                Dhaka- 1000, Bangladesh`}
+          />
+          <OrderMedicineCard
+            header={"Shahbag Medicine Corner"}
+            location={`Bangabandhu Sheikh Mojib Medical University Gate No-03, Shahbag,
+                Dhaka- 1000, Bangladesh`}
+          />
         </div>
         <div className="order_medicine_btn">
           <Button text={"View All"} fontSize={"18px"} />

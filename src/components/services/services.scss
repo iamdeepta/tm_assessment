@@ -1,0 +1,41 @@
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+  padding: 60px 220px;
+
+  .services_content {
+    p {
+      font-size: 14px;
+      line-height: 24px;
+      margin-bottom: 35px;
+    }
+  }
+}
+
+.services_list {
+  margin-top: 40px;
+
+  .services_list_content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    // margin-bottom: -40px;
+
+    .services_list_icon {
+      color: var(--main-color);
+      display: flex;
+      align-items: center;
+      //   margin-top: -15px;
+    }
+
+    p {
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      //   line-height: 28px;
+      margin-left: 10px;
+    }
+  }
+}

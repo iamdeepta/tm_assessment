@@ -19,24 +19,26 @@
 
   .about_us_content {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 15px 220px;
     position: relative;
+    gap: 70px;
 
-    .about_us_left_content {
-      margin-right: 85px;
+    // .about_us_left_content {
+    //   margin-right: 85px;
 
-      //   img {
-      //     border-radius: 50%;
-      //   }
-    }
+    // }
 
     .about_us_right_content {
+      h4 {
+        font-size: 24px;
+      }
       p {
         font-size: 14px;
         line-height: 24px;
         margin-bottom: 30px;
+        margin-top: -20px;
       }
     }
 
@@ -49,7 +51,7 @@
 
     .about_us_right_svg {
       position: absolute;
-      top: -30px;
+      //   top: -30px;
       right: 0px;
       z-index: -1;
     }
@@ -61,8 +63,9 @@
       border: 1px solid var(--main-color);
       border-radius: 50%;
       position: absolute;
-      top: 20px;
-      left: 174px;
+      //   top: 20px;
+      //   left: 174px;
+      //   right: 0px;
       z-index: -1;
     }
 
@@ -73,8 +76,9 @@
       border: 1px solid var(--main-color);
       border-radius: 50%;
       position: absolute;
-      top: 355px;
-      left: 140px;
+      //   top: 355px;
+      //   left: 140px;
+      //   right: 0px;
       z-index: -1;
     }
   }
